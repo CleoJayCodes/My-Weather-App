@@ -1,0 +1,62 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: white;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+}
+
+.search-bar {
+  font-size: 16px;
+  background-color: #f9f7fe;
+  padding: 16px;
+  border: none;
+  width: 75%;
+}
+
+.search-button {
+  background: #885df1;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+p {
+  color: rgba(39, 33, 66, 0.4);
+}
+
+p strong {
+  color: #f2668f;
+}
+
+.celesius-temp {
+  font-size: 80px;
+  font-weight: bold;
+  position: relative;
+  left: 250px;
+  top: -80px;
+}
+
+.celesius-temp span {
+  font-size: 40px;
+  position: relative;
+  top: -10px;
+}
+
+.celesius-unit {
+  font-size: 20px;
+  position: relative;
+  top: -38px;
+  left: -5px;
+  font-weight: thin;
+}
+
+p a {
+  color: #9874ed;
+}
